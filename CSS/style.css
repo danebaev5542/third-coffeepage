@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.container{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    position: fixed;
+}
+.logo{
+    height: 100%;
+    width: 110px;
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    width: 70%;
+}
+
+.menu{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
+.menu li a{
+    
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.menu li a:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+    padding-bottom: 8px;
+}
+
+.search-block{
+    width: 90px;
+   
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-block i{
+    cursor: pointer;
+}
+.search-block i:hover{
+    color: orange;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/home-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.home-container{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.home-container h1{
+    font-size: 60px;
+    width: 50%;
+    text-transform: uppercase;
+}
+.home-container p{
+    margin: 25px 0;
+    width: 50%;
+    line-height: 27px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+
+.btn{
+    padding: 10px 25px;
+    background-color: rgb(209, 179, 122);
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.btn:hover{
+    letter-spacing: 2px;
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    border: 1px solid red;
+}
+
+.h1-main{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.h1-main span{
+    color: rgb(209, 179, 122);;
+}
+
+.about-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-half{
+    width: 50%;
+    background-color: rgb(21, 33, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block-half img{
+    width: 100%;
+    height: 100%;
+}
+
+.
+
+

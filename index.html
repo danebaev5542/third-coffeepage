@@ -4,33 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ceffepage</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="header">
-        <a href="#" class="logo">
-            <img src="images/" alt="">
-        </a>
-        <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">about</a>
-            <a href="#">Menu</a>
-            <a href="#">products</a>
-            <a href="#">review</a>
-            <a href="#">Contact</a>
-            <a href="#">blogs</a>
-        </div>
-        <div class="header-icons">
-            <i class="fas fa-search" ></i>
-            <i class="fas fa-shopping-cart"></i>
+        <div class="container">
+            <a class="logo" href="#"><img class="logo-img" src="images/logo.png" alt=""></a>
+            <Ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">review</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">blogs</a></li>
+            </Ul>
+            <div class="search-block">
+                <i class="fas fa-search"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>    
+    </div>
+    <div id="home">
+        <div class="home-container">
+            <h1>FRESH COFFEE IN THE MORNING</h1>
+            <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Placeat Labore, Sint Cupiditate Distinctio Tempora Reiciendis</p>
+            <button class="btn">Get yours now</button>
         </div>
     </div>
-    <div class="home">
-        <h1>FRESH COFFEE IN THE MORNING</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequatur, officiis odit perspiciatis facere repellendus.</p>
-        <button class="btn">get yours now</button>
+    <div id="about">
+        <h1 class="h1-main"><span>about</span> us</h1>
+        <div class="about-container">
+            <div class="block-half">
+                <img src="images/about-img.jpeg" alt="">
+            </div>
+            <div class="block-half">
+                <h1 class="h1-about">What Makes Our Coffee Special?</h1>
+                <p class="p-about">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Voluptatibus Qui Ea Ullam, Enim Tempora Ipsum Fuga Alias Quae Ratione A Officiis Id Temporibus Autem? Quod Nemo Facilis Cupiditate. Ex, Vel?</p>
+                <p class="p-about">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Odit Amet Enim Quod Veritatis, Nihil Voluptas Culpa! Neque Consectetur Obcaecati Sapiente?
+                <button class="btn">Learn more</button>
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
